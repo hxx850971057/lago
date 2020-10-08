@@ -1,0 +1,159 @@
+/* 中间部分 */
+
+/* 职位 */
+.post{
+    display: flex;
+    flex-direction: column;
+
+}
+.post>a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    border-top: 1px solid #e8e8e8;
+    padding-right: 14px;
+    padding-left: 14px;
+}
+.post>a>div{
+    height: 61px;
+    display: flex;
+}
+.post>a>div>img{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+}
+.post>a>i{
+    font-style: normal;
+    font-size: 12px;
+    color: #00b38a
+
+}
+.post .postcont h2{
+    line-height: 25px;
+    font-size: 17px;
+    color: #333333;
+}
+.post .postcont p{
+    font-size: 12px;
+    color: #333333;
+    line-height: 20px;
+}
+.post .postcont i{
+    font-size: 11px;
+    color: #888888;
+    font-style: normal;
+    line-height: 25px;
+}
+.post>a:active{
+    background: #f0f0f0;
+}
+.more{
+    height: 50px;
+    background: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #e8e8e8;
+    font-size: 15px;
+    cursor: pointer;
+}
+.webtype{
+    height: 127px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 10px;
+    padding-top: 32px;
+}
+.webtype>p:nth-child(2){
+    margin-top: 12px;
+}
+.webtype>p:nth-child(2)>span{
+    cursor: pointer;
+    margin: 0 5px;
+}
+.webtype>p:nth-child(2)>span:first-child{
+    color: #999999;
+}
+.webtype>p:nth-child(2)>b{
+    font-weight: normal;
+}
+
+/* 搜索 */
+.serch{
+    height: 45px;
+    border-bottom:1px solid #e8e8e8;
+    font-size: 15px;
+    color: #333333;
+    display: flex;
+}
+.serch>div{
+    text-align: center;
+    line-height: 45px;
+    width: 88px;
+    border-right: 1px solid #e8e8e8;
+}
+.serch>div>span{
+    display: inline-block;
+    width: 10px;
+    height: 17px;
+    background: url(../img/icon1.png) no-repeat 0px 8px;
+}
+.serch>input{
+    width: 75%;
+    outline: none;
+    border: 0;
+    padding-left: 10px;
+}
+.serch>button{
+    width: 20%;
+    outline: none;
+    border: 0;
+    background: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+}
+.serch>button>span{
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background: url(../img/icon1.png) no-repeat -14px -2px;
+}
+.serch>button:active{
+    background: #fafafa;
+}
+.serch>button:active>span{
+    background-position:  -14px -20px;
+}
+/* 我的 */
+.means{
+    font-size: 13px;
+}
+.means a{
+    display: flex;
+    background: #1fc8a1;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+.means>a{
+    width: 125px;
+    height: 45px;
+    margin: 25px auto;
+}
+.means>div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.means>div>a{
+    width: 48%;
+    height: 86px;
+    margin-top: 10px;
+}
+
